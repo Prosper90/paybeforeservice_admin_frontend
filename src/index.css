@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ui-regular";
+  src: url("/fonts/Proxima-Nova-Regular.otf");
+}
+
+@font-face {
+  font-family: "ui-semi";
+  src: url("/fonts/Proxima-Nova-Semibold.otf");
+}
+
+@font-face {
+  font-family: "ui-bold";
+  src: url("/fonts/Proxima-Nova-Bold.otf");
+}
+
+#root {
+  height: 100vh;
+}
+
+.normal {
+  border: 1px solid #dadada;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.normal_active {
+  background-color: blueviolet;
+  border: 1px solid #dadada;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 5px;
+}
